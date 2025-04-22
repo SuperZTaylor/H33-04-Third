@@ -1,0 +1,52 @@
+body{background-image: url("https://projects.codewizardshq.com/i_h33_devops_02/bg_mono.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.pageHeader{font-size:60px;
+    color:#2d516b
+}
+
+section{width:70%;
+    margin:auto;
+}
+
+.menu{width:100vw;
+    max-width: 800px;
+    text-align: center;
+    margin:auto;
+}
+
+.menu>a{width:50%;}
+
+.languageLink:hover{filter:brightness(1.3);
+    transition: ease all 1s;
+}
+
+.languageLink > *{max-width: 350px;}
+
+.content{width:70vw;
+    margin:auto;
+    padding:20px;
+    text-align: center;
+}
+
+.back{color:#2d516b;
+    font-size:20px;
+}
+
+/*
+Python
+https://projects.codewizardshq.com/i_h33_devops_02/python_logo.png
+HTML
+https://projects.codewizardshq.com/i_h33_devops_02/HTML_logo.png
+Javascript
+https://projects.codewizardshq.com/i_h33_devops_02/javascript_logo.png
+Bg
+https://projects.codewizardshq.com/i_h33_devops_02/bg_mono.png
+*/
